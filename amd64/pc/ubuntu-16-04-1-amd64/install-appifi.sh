@@ -228,6 +228,10 @@ systemctl disable smbd nmbd
 # no need, only one kernel (4.4.0-53-generic) #
 # dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | xargs apt-get -y purge
 
+# just for test
+wget https://github.com/JiangWeiGitHub/appifi-system/raw/master/wisnuc-215i/ubuntu-16-04-1-amd64/appifi-0.2.20-5101484-dbffb437-pre.tar.gz
+mv appifi-0.2.20-5101484-dbffb437-pre.tar.gz /wisnuc/appifi-tarballs
+
 apt-get clean && apt-get autoclean
 
 cd ..
