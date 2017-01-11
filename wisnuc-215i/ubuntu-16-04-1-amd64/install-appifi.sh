@@ -195,8 +195,8 @@ systemctl stop smbd nmbd
 systemctl disable smbd nmbd
 
 # just for test
-wget https://github.com/JiangWeiGitHub/appifi-system/raw/master/wisnuc-215i/ubuntu-16-04-1-amd64/appifi-0.2.20-5101484-dbffb437-pre.tar.gz
-mv appifi-0.2.20-5101484-dbffb437-pre.tar.gz /wisnuc/appifi-tarballs
+wget https://github.com/JiangWeiGitHub/appifi-system/raw/master/wisnuc-215i/ubuntu-16-04-1-amd64/appifi-0.2.21-5105573-30175a52-rel.tar.gz
+mv appifi-0.2.21-5105573-30175a52-rel.tar.gz /wisnuc/appifi-tarballs
 
 #
 # cleanup
