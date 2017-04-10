@@ -1,5 +1,5 @@
 ### Goal
-  1. users only need to copy some files & run a shell script inside `Ubuntu 16.04.1 amd64` operating system on their own PC, and `Appifi System` will be running after reboot.
+  1. users only need to run a shell script inside `Ubuntu 16.04.1 amd64` operating system on their own PC, and 'appifi development environment' will be ok after reboot.
 
 ### Configuration
 + **Host PC Related**
@@ -15,29 +15,19 @@
   - Hard disk: 80G
   - Others: Default
 + **appifi-system Related**
-  - OS: Ubuntu 16.04.1 amd64 Desktop
+  - OS: Ubuntu 16.04.2 amd64 Desktop
 
 ### Procedure
-+ Run Ubuntu 16.04.1
++ Run Ubuntu 16.04.2
 + Open shell
 + Download install-appifi.sh<p>
-  `wget https://raw.githubusercontent.com/JiangWeiGitHub/appifi-system/master/amd64/pc/ubuntu-16-04-1-amd64/install-appifi.sh`<p>
-+ Copy `node-v6.9.2-linux-x64.tar.xz` & `docker-1.12.4.tgz` & `appifi-bootstrap-update.packed.js` & `appifi-bootstrap.js.sha1` under the same level directory with `install-appifi.sh`<p>
-  - `node-v6.9.2-linux-x64.tar.xz` [*download path*](https://nodejs.org/dist/v6.9.2/node-v6.9.2-linux-x64.tar.xz)<p>
-  - `docker-1.12.4.tgz` [*download path*](https://get.docker.com/builds/Linux/x86_64/docker-1.12.4.tgz)<p>
-  - `appifi-bootstrap-update.packed.js` [*download path*](https://raw.githubusercontent.com/wisnuc/appifi-bootstrap-update/release/appifi-bootstrap-update.packed.js)<p>
-  - `appifi-bootstrap.js.sha1` [*download path*](https://raw.githubusercontent.com/wisnuc/appifi-bootstrap/release/appifi-bootstrap.js.sha1)<p>
+  `wget https://raw.githubusercontent.com/JiangWeiGitHub/appifi-system/master/amd64/pc/ubuntu-16-04-2-amd64/install-appifi.sh`<p>
 + Run install-appifi.sh<p>
   `chmod 755 ./install-appifi.sh`<p>
   `./install-appifi.sh`<p>
   - Install avahi with apt-get
-  - Install Nodejs with local binary lib
-  - Install docker with local binary lib
-  - Create some folders under 'wisnuc'
-  - Get 'appifi-bootstrap-update.packed.js' with local file
-  - Get 'appifi-bootstrap.js.sha1' with local file
-  - Create appifi bootstrap service
-  - Create appifi bootstrap update Service & timer
+  - Install Nodejs
+  - Install docker
   - Enable & Disable some service with systemctl
   - Clean apt packages & tmp folder
 + Reboot system
