@@ -24,7 +24,7 @@
   `wget https://raw.githubusercontent.com/JiangWeiGitHub/appifi-system/master/amd64/pc/ubuntu-16-04-2-amd64/install-appifi.sh`<p>
 + Run install-appifi.sh<p>
   `chmod 755 ./install-appifi.sh`<p>
-  `./install-appifi.sh`<p>
+  `sudo ./install-appifi.sh`<p>
   - Install avahi with apt-get
   - Install Nodejs
   - Install docker
