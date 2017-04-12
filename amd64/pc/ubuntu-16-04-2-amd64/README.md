@@ -1,5 +1,5 @@
 ### Goal
-  1. users only need to run a shell script inside `Ubuntu 16.04.1 amd64` operating system on their own PC, and 'appifi development environment' will be ok after reboot.
+  1. users only need to run a shell script inside `Ubuntu 16.04.2 amd64` operating system on their own PC, and 'appifi development environment' will be ok after reboot.
 
 ### Configuration
 + **Host PC Related**
